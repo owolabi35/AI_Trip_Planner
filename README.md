@@ -24,5 +24,11 @@ print(shutil.which("uv"))```
 ## use this command from your virtual env
 ```C:\Users\sunny\AI_Trip_Planner\env\Scripts\activate.bat```
 
-'''uvicorn main:app --reload --port 8000'''
+## backend server
+
+```uvicorn main:app --reload --port 8000```
+
+## front end server
+
+``streamlit run streamlit_app.py``
 
